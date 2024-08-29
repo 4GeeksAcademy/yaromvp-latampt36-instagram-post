@@ -1,33 +1,41 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-size: small;
+    font-size: 15px;
     background-color: black;
     display: flex;
     justify-content: center;
 }
-div{
+
+.post {
     background-color: white;
+    width: 450px;
 }
-.post{
-    width: 400px;
+
+.post-header {
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-}
-.post-header{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
 }
-.post-icons{
+
+.post-body {
+    padding: 5px;
+}
+
+.post-icons {
     display: flex;
     justify-content: space-between;
 }
-img{
-    width: 400px;
+
+i {
+    font-size: 25px;
 }
-.post-body{
-    padding: 10px;
+
+.ph-left {
+    display: flex;
+    align-items: center;
+}
+
+.icon-topleft {
+    padding-right: 5px;
 }
